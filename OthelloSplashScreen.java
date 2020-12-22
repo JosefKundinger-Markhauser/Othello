@@ -55,7 +55,7 @@ public class OthelloSplashScreen extends JWindow{
 		int y = (screen.height - height) / 2;
 		
 		// Creates the splash screen with a picture and student information at the bottom 
-		JLabel label = new JLabel(new ImageIcon(getClass().getResource("splash.gif")));
+		JLabel label = new JLabel(new ImageIcon(getClass().getResource("..//Pics//splash.gif")));
 		JLabel names = new JLabel("Josef Kundinger-Markhauser 040824003 | Philip Thesen 040797646", JLabel.CENTER);
 		names.setForeground(Color.white);
 		// create custom RGB color 

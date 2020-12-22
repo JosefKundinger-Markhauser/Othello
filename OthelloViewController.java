@@ -57,13 +57,13 @@ public class OthelloViewController extends JFrame{
     private Color red              = Color.RED;
     
      /** Image Icon representing player 1 - the black game piece.*/
-    private ImageIcon onePieceIcon = new ImageIcon(getClass().getResource("black_s.png"));
+    private ImageIcon onePieceIcon = new ImageIcon(getClass().getResource("..//Pics//black_s.png"));
 
      /** Image Icon representing player 2 - the white game piece. */
-    private ImageIcon twoPieceIcon = new ImageIcon(getClass().getResource("white_s.png"));
+    private ImageIcon twoPieceIcon = new ImageIcon(getClass().getResource("..//Pics//white_s.png"));
      
      /** Image for valid moves */
-    private ImageIcon checkMark    = new ImageIcon(getClass().getResource("checkmark.png"));
+    private ImageIcon checkMark    = new ImageIcon(getClass().getResource("..//Pics//checkmark.png"));
 
      /** Represents the current piece total for player 1. */
     private int player1Pieces      = 2;
@@ -806,13 +806,13 @@ public class OthelloViewController extends JFrame{
             //If the skin needs to be changed or the about button is selected.
             switch(arg){
                 case("catDog"):
-                    reskin("cat.png", "dog.png");
+                    reskin("..//Pics//cat.png", "..//Pics//dog.png");
                     break;
                 case("pumpBat"):
-                    reskin("bat.png", "pumpkin.png");
+                    reskin("..//Pics//bat.png", "..//Pics//pumpkin.png");
                     break;
                 case("normal"):
-                    reskin("black_s.png", "white_s.png");
+                    reskin("..//Pics//black_s.png", "..//Pics//white_s.png");
                     break;
                  case("aboutInfo"):
                     JOptionPane.showMessageDialog(null,

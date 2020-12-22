@@ -34,7 +34,7 @@ public class Othello {
 	public static void main(String[] args) {
 		
 		/**An instance of the OthelloSplashScreen class */
-		OthelloSplashScreen obj = new OthelloSplashScreen(100);  
+		OthelloSplashScreen obj = new OthelloSplashScreen(5000);  
 
 		//Displays the splash screen.
 		obj.showSplashWindow();
